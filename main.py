@@ -15,9 +15,11 @@ cor3 = '#21c25c'
 cor4 = '#eb463b'
 cor5 = '#dedcdc'
 cor6 = '#3080f0'
+cor7 = '#bfeeff'
+cor8 = '#26ff1f'
 
 fundo = cor1
-cor = cor6
+cor = cor8
 
 janela = Tk()
 janela.title('')
@@ -42,9 +44,9 @@ def relogio():
 
     
 l1 = Label(janela, text='', font=('digital-7 100'), bg=fundo, fg=cor)
-l1.grid(row=0, column=0, sticky=NW, pady=5, padx=10)
+l1.grid(row=0, column=0, sticky=NW, pady=5, padx=40)
 l2 = Label(janela, text='', font=('digital-7 17'), bg=fundo, fg=cor)
-l2.grid(row=1, column=0, sticky=NW, pady=5, padx=10)
+l2.grid(row=1, column=0, sticky=NW, pady=5, padx=40)
 
 relogio()
 janela.mainloop()
