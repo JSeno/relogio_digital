@@ -17,7 +17,7 @@ cor5 = '#dedcdc'
 cor6 = '#3080f0'
 
 fundo = cor1
-cor = cor2
+cor = cor6
 
 janela = Tk()
 janela.title('')
@@ -41,9 +41,9 @@ def relogio():
     l2.config(text=dia_semana + ' ' + str(dia) + ' de ' + mes + ' de ' + str(ano))
 
     
-l1 = Label(janela, text='', font=('digital-7 100'), bg=fundo, fg=cor2 )
+l1 = Label(janela, text='', font=('digital-7 100'), bg=fundo, fg=cor)
 l1.grid(row=0, column=0, sticky=NW, pady=5, padx=10)
-l2 = Label(janela, text='', font=('digital-7 17'), bg=fundo, fg=cor2 )
+l2 = Label(janela, text='', font=('digital-7 17'), bg=fundo, fg=cor)
 l2.grid(row=1, column=0, sticky=NW, pady=5, padx=10)
 
 relogio()
